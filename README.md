@@ -89,7 +89,7 @@ This repository is licensed under the GNU General Public License v3.0. See the [
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to open an issue or contact us at [your-email@example.com].
+If you have any questions, suggestions, or feedback, please feel free to open an issue or contact us at [nbinding+pmhive@gmail.com].
 
 ---
 
