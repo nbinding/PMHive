@@ -1,8 +1,4 @@
 # PMHive
-Your comprehensive hub for product management resources. Discover articles, guides, templates, and tools, and join a community of professionals sharing insights and best practices to excel in product management.
-
----
-
 Welcome to PMHive, your comprehensive hub for product management resources. Our goal is to create an open and collaborative environment where product managers can access a wealth of information and tools to enhance their skills and knowledge. PMHive is completely free and open, ensuring that valuable resources are available to everyone in the product management community.
 
 ## Table of Contents
