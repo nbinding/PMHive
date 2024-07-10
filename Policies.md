@@ -89,8 +89,4 @@ For any questions or concerns regarding the curation policy, please contact us a
 
 ---
 
-By adhering to this curation policy, we can ensure that PMHive remains a high-quality, valuable resource for the product management community. Thank you for your contributions and commitment to excellence.
-
----
-
-Feel free to adjust any part of this policy to better fit your specific needs and workflow.
+By adhering to this curation policy, we can ensure that PMHive remains a high-quality, valuable resource for the product management community.
