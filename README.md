@@ -1,6 +1,8 @@
 # PMHive
 Welcome to PMHive, your comprehensive hub for product management resources. Our goal is to create an open and collaborative environment where product managers can access a wealth of information and tools to enhance their skills and knowledge. PMHive is completely free and open, ensuring that valuable resources are available to everyone in the product management community.
 
+PMHive also powers a GitHub Pages site through `index.md`. Many of the category files are currently placeholders, so we welcome your contributions to help fill them with high-quality content.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -12,6 +14,8 @@ Welcome to PMHive, your comprehensive hub for product management resources. Our 
 ## Introduction
 
 PMHive is designed to be a central repository of resources for product managers of all levels. Whether you're just starting out or you're an experienced professional, you'll find valuable content here, including articles, guides, templates, tools, and more.
+
+Many of the linked Markdown files are currently empty placeholders. Feel free to contribute new articles, links and templates to build out the library.
 
 ## Categories
 
@@ -69,7 +73,7 @@ Explore the different categories to find the resources you need:
 
 ## How to Contribute
 
-We welcome contributions from everyone! To contribute:
+We welcome contributions from everyone! Before you start, please read [Policies.md](./Policies.md) for formatting guidelines. To contribute:
 
 1. **Fork the repository**.
 2. **Create a new branch** for your changes.
@@ -85,7 +89,7 @@ This repository is licensed under the GNU General Public License v3.0. See the [
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to open an issue or contact us at [nbinding+pmhive@gmail.com].
+If you have any questions, suggestions, or feedback, please feel free to open an issue or email us at [nbinding+pmhive@gmail.com].
 
 ---
 
