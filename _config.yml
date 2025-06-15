@@ -1,0 +1,31 @@
+title: PMHive
+description: "Product management resources"
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+permalink: pretty
+
+# Navigation links correspond to the repository folder structure
+navigation:
+  - title: Reading Material
+    url: /Reading-Material/
+  - title: Learning Resources
+    url: /Learning-Resources/
+  - title: Practical Tools and Templates
+    url: /Practical-Tools-and-Templates/
+  - title: Media
+    url: /Media/
+  - title: Networking and Community
+    url: /Networking-and-Community/
+  - title: Events
+    url: /Events/
+  - title: Communication and Interaction
+    url: /Communication-and-Interaction/
+  - title: Expert Insights
+    url: /Expert-Insights/
+  - title: Job and Career Development
+    url: /Job-and-Career-Development/
+  - title: Miscellaneous
+    url: /Miscellaneous/
