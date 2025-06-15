@@ -3,6 +3,8 @@ Welcome to PMHive, your comprehensive hub for product management resources. Our 
 
 PMHive also powers a GitHub Pages site through `index.md`. Many of the category files are currently placeholders, so we welcome your contributions to help fill them with high-quality content.
 
+Dependencies for the site are managed with Bundler. Use the provided `Gemfile` and run `bundle exec jekyll serve` to preview the site locally.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
