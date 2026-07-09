@@ -1,0 +1,35 @@
+/* Minimal monochrome theme: black on white (light), white on black (dark). */
+
+:root {
+	--sl-color-accent-low: #e5e5e5;
+	--sl-color-accent: #000000;
+	--sl-color-accent-high: #000000;
+
+	--sl-color-white: #000000;
+	--sl-color-gray-1: #171717;
+	--sl-color-gray-2: #404040;
+	--sl-color-gray-3: #737373;
+	--sl-color-gray-4: #a3a3a3;
+	--sl-color-gray-5: #d4d4d4;
+	--sl-color-gray-6: #f0f0f0;
+	--sl-color-gray-7: #f8f8f8;
+	--sl-color-black: #ffffff;
+
+	--sl-font: system-ui, sans-serif;
+}
+
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #262626;
+	--sl-color-accent: #ffffff;
+	--sl-color-accent-high: #ffffff;
+
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #f0f0f0;
+	--sl-color-gray-2: #d4d4d4;
+	--sl-color-gray-3: #a3a3a3;
+	--sl-color-gray-4: #737373;
+	--sl-color-gray-5: #404040;
+	--sl-color-gray-6: #262626;
+	--sl-color-gray-7: #171717;
+	--sl-color-black: #000000;
+}

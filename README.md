@@ -1,7 +1,15 @@
 # PMHive
 Welcome to PMHive, your comprehensive hub for product management resources. Our goal is to create an open and collaborative environment where product managers can access a wealth of information and tools to enhance their skills and knowledge. PMHive is completely free and open, ensuring that valuable resources are available to everyone in the product management community.
 
-PMHive also powers a GitHub Pages site through `index.md`. Many of the category files are currently placeholders, so we welcome your contributions to help fill them with high-quality content.
+PMHive is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build), and published to GitHub Pages from the `public` branch. Content lives as plain Markdown under `src/content/docs/`, organized by category. Many of the category files are currently placeholders, so we welcome your contributions to help fill them with high-quality content.
+
+### Local development
+
+```sh
+npm install
+npm run dev      # preview at localhost:4321
+npm run build    # build the static site to dist/
+```
 
 ## Table of Contents
 
@@ -21,55 +29,55 @@ Many of the linked Markdown files are currently empty placeholders. Feel free to
 
 Explore the different categories to find the resources you need:
 
-- [Reading Material](./Reading-Material)
-  - [Articles](./Reading-Material/Articles.md)
-  - [Books](./Reading-Material/Books.md)
-  - [Blogs](./Reading-Material/Blogs.md)
-  - [Case Studies](./Reading-Material/Case-Studies.md)
-  - [Whitepapers](./Reading-Material/Whitepapers.md)
-  - [E-books](./Reading-Material/E-books.md)
-  - [Research Papers](./Reading-Material/Research-Papers.md)
-  - [News](./Reading-Material/News.md)
-  - [Newsletters](./Reading-Material/Newsletters.md)
-  - [Market Analysis Reports](./Reading-Material/Market-Analysis-Reports.md)
-- [Learning Resources](./Learning-Resources)
-  - [Guides](./Learning-Resources/Guides.md)
-  - [Courses](./Learning-Resources/Courses.md)
-  - [Certifications](./Learning-Resources/Certifications.md)
-  - [Webinars](./Learning-Resources/Webinars.md)
-  - [Workshops](./Learning-Resources/Workshops.md)
-  - [Online Training Platforms](./Learning-Resources/Online-Training-Platforms.md)
-- [Practical Tools and Templates](./Practical-Tools-and-Templates)
-  - [Checklists](./Practical-Tools-and-Templates/Checklists.md)
-  - [Frameworks](./Practical-Tools-and-Templates/Frameworks.md)
-  - [Templates](./Practical-Tools-and-Templates/Templates.md)
-  - [Tools](./Practical-Tools-and-Templates/Tools.md)
-  - [Web Apps](./Practical-Tools-and-Templates/Web-Apps.md)
-- [Media](./Media)
-  - [Podcasts](./Media/Podcasts.md)
-  - [Videos](./Media/Videos.md)
-  - [Infographics](./Media/Infographics.md)
-- [Networking and Community](./Networking-and-Community)
-  - [Contacts](./Networking-and-Community/Contacts.md)
-  - [Communities](./Networking-and-Community/Communities.md)
-  - [User Groups](./Networking-and-Community/User-Groups.md)
-  - [Meetups](./Networking-and-Community/Meetups.md)
-  - [Social Media Groups](./Networking-and-Community/Social-Media-Groups.md)
-  - [Networking Events](./Networking-and-Community/Networking-Events.md)
-- [Events](./Events)
-  - [Conferences](./Events/Conferences.md)
-  - [Other Events](./Events/Other-Events.md)
-  - [Competitions and Awards](./Events/Competitions-and-Awards.md)
-- [Communication and Interaction](./Communication-and-Interaction)
-  - [Forums](./Communication-and-Interaction/Forums.md)
-  - [Surveys](./Communication-and-Interaction/Surveys.md)
-- [Expert Insights](./Expert-Insights)
-  - [Expert Interviews](./Expert-Insights/Expert-Interviews.md)
-  - [Product Reviews](./Expert-Insights/Product-Reviews.md)
-- [Job and Career Development](./Job-and-Career-Development)
-  - [Job Boards](./Job-and-Career-Development/Job-Boards.md)
-- [Miscellaneous](./Miscellaneous)
-  - [Miscellaneous](./Miscellaneous/Miscellaneous.md)
+- [Reading Material](./src/content/docs/Reading-Material)
+  - [Articles](./src/content/docs/Reading-Material/Articles.md)
+  - [Books](./src/content/docs/Reading-Material/Books.md)
+  - [Blogs](./src/content/docs/Reading-Material/Blogs.md)
+  - [Case Studies](./src/content/docs/Reading-Material/Case-Studies.md)
+  - [Whitepapers](./src/content/docs/Reading-Material/Whitepapers.md)
+  - [E-books](./src/content/docs/Reading-Material/E-books.md)
+  - [Research Papers](./src/content/docs/Reading-Material/Research-Papers.md)
+  - [News](./src/content/docs/Reading-Material/News.md)
+  - [Newsletters](./src/content/docs/Reading-Material/Newsletters.md)
+  - [Market Analysis Reports](./src/content/docs/Reading-Material/Market-Analysis-Reports.md)
+- [Learning Resources](./src/content/docs/Learning-Resources)
+  - [Guides](./src/content/docs/Learning-Resources/Guides.md)
+  - [Courses](./src/content/docs/Learning-Resources/Courses.md)
+  - [Certifications](./src/content/docs/Learning-Resources/Certifications.md)
+  - [Webinars](./src/content/docs/Learning-Resources/Webinars.md)
+  - [Workshops](./src/content/docs/Learning-Resources/Workshops.md)
+  - [Online Training Platforms](./src/content/docs/Learning-Resources/Online-Training-Platforms.md)
+- [Practical Tools and Templates](./src/content/docs/Practical-Tools-and-Templates)
+  - [Checklists](./src/content/docs/Practical-Tools-and-Templates/Checklists.md)
+  - [Frameworks](./src/content/docs/Practical-Tools-and-Templates/Frameworks.md)
+  - [Templates](./src/content/docs/Practical-Tools-and-Templates/Templates.md)
+  - [Tools](./src/content/docs/Practical-Tools-and-Templates/Tools.md)
+  - [Web Apps](./src/content/docs/Practical-Tools-and-Templates/Web-Apps.md)
+- [Media](./src/content/docs/Media)
+  - [Podcasts](./src/content/docs/Media/Podcasts.md)
+  - [Videos](./src/content/docs/Media/Videos.md)
+  - [Infographics](./src/content/docs/Media/Infographics.md)
+- [Networking and Community](./src/content/docs/Networking-and-Community)
+  - [Contacts](./src/content/docs/Networking-and-Community/Contacts.md)
+  - [Communities](./src/content/docs/Networking-and-Community/Communities.md)
+  - [User Groups](./src/content/docs/Networking-and-Community/User-Groups.md)
+  - [Meetups](./src/content/docs/Networking-and-Community/Meetups.md)
+  - [Social Media Groups](./src/content/docs/Networking-and-Community/Social-Media-Groups.md)
+  - [Networking Events](./src/content/docs/Networking-and-Community/Networking-Events.md)
+- [Events](./src/content/docs/Events)
+  - [Conferences](./src/content/docs/Events/Conferences.md)
+  - [Other Events](./src/content/docs/Events/Other-Events.md)
+  - [Competitions and Awards](./src/content/docs/Events/Competitions-and-Awards.md)
+- [Communication and Interaction](./src/content/docs/Communication-and-Interaction)
+  - [Forums](./src/content/docs/Communication-and-Interaction/Forums.md)
+  - [Surveys](./src/content/docs/Communication-and-Interaction/Surveys.md)
+- [Expert Insights](./src/content/docs/Expert-Insights)
+  - [Expert Interviews](./src/content/docs/Expert-Insights/Expert-Interviews.md)
+  - [Product Reviews](./src/content/docs/Expert-Insights/Product-Reviews.md)
+- [Job and Career Development](./src/content/docs/Job-and-Career-Development)
+  - [Job Boards](./src/content/docs/Job-and-Career-Development/Job-Boards.md)
+- [Miscellaneous](./src/content/docs/Miscellaneous)
+  - [Miscellaneous](./src/content/docs/Miscellaneous/Miscellaneous.md)
 
 ## How to Contribute
 
