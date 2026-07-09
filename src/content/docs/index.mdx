@@ -1,0 +1,35 @@
+---
+title: PMHive
+description: Your comprehensive hub for product management resources.
+template: splash
+hero:
+  tagline: A free, open, community-built hub of resources for product managers — contributed by PMs, for PMs.
+  actions:
+    - text: Browse resources
+      link: reading-material/articles/
+      icon: right-arrow
+      variant: primary
+    - text: Contribute on GitHub
+      link: https://github.com/nbinding/PMHive
+      icon: external
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Categories
+
+<CardGrid>
+	<LinkCard title="Reading Material" href="reading-material/articles/" description="Articles, books, whitepapers, research and more" />
+	<LinkCard title="Learning Resources" href="learning-resources/guides/" description="Guides, courses, certifications and workshops" />
+	<LinkCard title="Practical Tools and Templates" href="practical-tools-and-templates/checklists/" description="Checklists, frameworks, templates and tools" />
+	<LinkCard title="Media" href="media/podcasts/" description="Podcasts, videos and infographics" />
+	<LinkCard title="Networking and Community" href="networking-and-community/communities/" description="Communities, meetups and user groups" />
+	<LinkCard title="Events" href="events/conferences/" description="Conferences, competitions and other events" />
+	<LinkCard title="Communication and Interaction" href="communication-and-interaction/forums/" description="Forums and surveys" />
+	<LinkCard title="Expert Insights" href="expert-insights/expert-interviews/" description="Interviews and product reviews" />
+	<LinkCard title="Job and Career Development" href="job-and-career-development/job-boards/" description="Job boards for PMs" />
+	<LinkCard title="Miscellaneous" href="miscellaneous/miscellaneous/" description="Everything else" />
+</CardGrid>
+
+Many of these pages are placeholders — see [Contributing](https://github.com/nbinding/PMHive/blob/main/CONTRIBUTING.md) to help fill them in.
