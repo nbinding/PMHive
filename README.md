@@ -11,8 +11,6 @@ npm run dev      # preview at localhost:4321
 npm run build    # build the static site to dist/
 ```
 
-Dependencies for the site are managed with Bundler. Use the provided `Gemfile` and run `bundle exec jekyll serve` to preview the site locally.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
